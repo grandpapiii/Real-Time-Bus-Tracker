@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.map-overlay {
+  position: absolute;
+  left: 0;
+  padding: 10px;
+}
+
+.btn {
+  font-size: 2em;
+  position: left;
+  left: 10px;
+  background-color: rgb(72, 114, 168);
+}
+
+.mapboxgl-marker {
+  background-image: url('https://www.svgrepo.com/show/86336/bus.svg');
+  background-size: cover;
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
+  border: 4px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mapboxgl-marker >svg {
+  display: none;
+}
